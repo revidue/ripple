@@ -208,7 +208,7 @@ export default function RipplePage() {
     const fetchApps = async () => {
       try {
         const response = await fetch(
-          "https://raw.githubusercontent.com/WFIS01/SnipeHub-UK/refs/heads/main/connect_file.txt",
+          "https://github.com/revidue/SnipeHub-UK/blob/main/connect_file.txt",
         )
         const data = await response.text()
 
