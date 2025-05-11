@@ -298,7 +298,7 @@ export default function RipplePage() {
         }
       } catch (error) {
         console.error("Error fetching random text:", error)
-        setRandomText("Welcome to RPL v0.1.1")
+        setRandomText("Welcome to RPL v0.1.2")
         setTypingIndex(0)
         setIsTyping(true)
       }
@@ -852,7 +852,7 @@ export default function RipplePage() {
             <p>2025 SnipeCo.™ all rights reserved</p>
             <p className="mt-2 text-sm">Press Ctrl+Space to open the Highlight Menu</p>
             <button className="text-xs text-gray-500 hover:text-gray-300 mt-2" onClick={() => setCreditsVisible(true)}>
-              RPL v0.1.1
+              RPL v0.1.2
             </button>
           </div>
         </footer>
@@ -1061,7 +1061,7 @@ export default function RipplePage() {
                 setCreditsVisible(true)
               }}
             >
-              RPL v0.1.1
+              RPL v0.1.2
             </button>
           </div>
         </div>
